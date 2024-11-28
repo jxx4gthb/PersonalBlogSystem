@@ -1,0 +1,79 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1189",
+      "name": "自助推广",
+      "font_class": "zizhutuiguang",
+      "unicode": "f0104",
+      "unicode_decimal": 983300
+    },
+    {
+      "icon_id": "153570",
+      "name": "好友推介",
+      "font_class": "haoyoutuijie",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "2675116",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "3456456",
+      "name": "帮助与说明",
+      "font_class": "bangzhuyushuoming",
+      "unicode": "e70f",
+      "unicode_decimal": 59151
+    },
+    {
+      "icon_id": "6865347",
+      "name": "设置",
+      "font_class": "shezhi",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "8575002",
+      "name": "我的店铺客服",
+      "font_class": "kefu",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "9319005",
+      "name": "home",
+      "font_class": "home",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "11177757",
+      "name": "抽屉",
+      "font_class": "ziyuan",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "14310214",
+      "name": "广告管理",
+      "font_class": "guanggaoguanli",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "22553133",
+      "name": "医院",
+      "font_class": "a-ziyuan45",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+html,body{
+    height: 100%;
+    margin: 0;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.sidecollar{
+    height: 952px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0,0,255,0.1);
+}
+.item{
+    text-align: left;
+}
+ul li{
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 10px 0;
+    position: relative;
+    top: -30px;
+    left: 15px;
+    border-radius: 50px 0px 0px 50px;
+    width: 200px;
+}
+li span{
+    margin-right: 20px;
+}
+a,a:link,a:visited,a:hover,a:active{
+    text-decoration: none;
+    color: inherit;
+    font-size: larger;
+}
+.logo{
+    width: 280px;
+    height: 118px;
+    background-color: #1f8afe;
+    position: relative;
+    top: -48px;
+    border-radius: 0 0 25px 0;
+    box-shadow: 2px 2px 2px rgba(0,0,255,0.1);
+}
+.top{
+    background-color: white;
+    height: 100px;
+    width: 1430px;
+    box-shadow: 0px 1px 5px rgba(0,0,255,0.1);
+    display: flex;
+    align-items: center;
+}
+.head{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin: auto 30px;
+}
+img~p{
+    margin: auto 0px;
+    font-weight:bold;
+}
+.search{
+    display:flex;
+	width:300px;
+	height:32px;
+	border:1px solid #ddd;
+	border-radius:30px;
+	justify-content:space-between;
+	align-items:center;
+	position:relative;
+    background-color: #eee;
+    margin-left:550px;
+}
+.search input{
+    width:270px;
+	height:32px;
+	border:0;
+	font-size:14px;
+	outline:none;
+	margin:0 10px;
+	background-color:transparent;
+}
+.search button{
+    border:none;
+	outline:none;
+	cursor:pointer;
+	background:transparent;
+	min-width:16px;
+}
+.helpexit{
+    margin-left: 20px;
+}
+.content{
+    background-color: #efefef;
+    position: absolute;
+    left: 281px;
+    top: 100px;
+    width: 1430px;
+    height: 850px;
+}
+.item li {
+    cursor: pointer;
+}
+
+.item li.selected {
+    background-color: #1f8afe;
+}
+
+.item li span {
+    color: black; /* 初始颜色 */
+}
+
+.item li a {
+    color: black; /* 初始颜色 */
+}

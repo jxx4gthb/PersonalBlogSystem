@@ -1,0 +1,16 @@
+.in_style{
+    background-color:rgba(30,144,255,0.1);
+    color:#1E90FF;
+    border:1px solid #1E90FF
+}
+body{
+    background:url("../img/login2.jpg")  no-repeat center center;   /*加载背景图*/   /* 背景图不平铺 */
+    background-size:cover;  /* 让背景图基于容器大小伸缩 */
+    background-attachment:fixed;        /* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
+    background-color:#CCCCCC;   /* 设置背景颜色，背景图加载过程中会显示背景色 */
+}
+.form{
+    background-color: rgba(30,144,255,0.1);
+    border:1px solid #1E90FF;
+    border-radius: 10px;
+}

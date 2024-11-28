@@ -1,0 +1,30 @@
+.title{
+    display: flex;
+    height: 63px;
+}
+
+#fr{
+    background-color: white;
+    height: 730px;
+    width: 1370px;
+    position: absolute;
+    left: 30px;
+    top: 80px;
+    border-radius: 5px 5px 5px 5px;
+}
+a:link{
+    color: aqua;
+}
+a,a:visited,a:hover{
+    text-decoration: none;
+    color: inherit;
+    margin:auto 50px;
+    font-weight: bold;
+    font-size: large;
+}
+#navigation a.selected {
+    color: rgb(0, 183, 255);
+    border-bottom: 2px solid;
+    border-color: rgb(0, 183, 255);
+    padding:10px 0;
+}

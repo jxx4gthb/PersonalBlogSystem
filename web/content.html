@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/content.css">
+</head>
+<body>
+    <div class="title" id="navigation">
+        <a href="./blank.html" target="frame2" id="l1" onclick="changeColor('l1')">基本信息设置</a>
+        <a href="./blank.html" target="frame2" id="l2" onclick="changeColor('l2')">SEO设置</a>
+        <a href="./blank.html" target="frame2" id="l3" onclick="changeColor('l3')">栏目设置</a>
+        <a href="./admin.html" target="frame2" id="l4" onclick="changeColor('l4')">管理员设置</a>
+        <a href="./blank.html" target="frame2" id="l5" onclick="changeColor('l5')">在线客服设置</a>
+        <a href="./blank.html" target="frame2" id="l6" onclick="changeColor('l6')">接口管理</a>
+    </div>
+    <script>
+        function changeColor(itemId) {
+            // 先将所有项重置为非选中状态
+            var items = document.getElementsByTagName('a');
+            for (var i = 0; i < items.length; i++) {
+                items[i].classList.remove('selected');
+            }
+            
+            // 设置当前项为选中状态
+            document.getElementById(itemId).classList.add('selected');
+        }
+    </script>
+    <iframe frameborder="0" name="frame2" id="fr"></iframe>
+</body>
+</html>
