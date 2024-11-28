@@ -1,81 +1,71 @@
-Web Technology Project
+# Web 技术项目
 
-Project Overview
+## 项目概述
 
-This project involves the development of a web-based application designed to facilitate front-end and back-end interactions. The application includes features such as user login, blog management, image upload, and more. The project also implements various technologies like JSP, AJAX, JDBC, and Session/Cookie management for user authentication.
+这个项目涉及开发一个基于 **Web** 的应用，旨在促进前端和后端的交互。该应用包括用户登录、博客管理、图片上传等功能。项目还实现了多种技术，如 **JSP**、**AJAX**、**JDBC** 和 **Session/Cookie** 管理，用于用户认证。
 
-Technologies Used:
+### 使用的技术：
 
-	•	Frontend: HTML, CSS, JavaScript (AJAX), JSP
-	•	Backend: Java, Servlet, JDBC
-	•	Database: MySQL
-	•	File Handling: Image upload and storage using Servlet
+- **前端**: HTML, CSS, JavaScript (AJAX), JSP
+- **后端**: Java, Servlet, JDBC
+- **数据库**: MySQL
+- **文件处理**: 使用 Servlet 进行图片上传和存储
 
-Features:
+## 功能：
 
-	1.	User Authentication:
-	•	Login functionality using username, password, and CAPTCHA.
-	•	Session management for persistent login.
-	2.	Blog Management:
-	•	Display, add, edit, and delete blog posts.
-	•	Each blog post includes a title, content, and image.
-	3.	Image Upload:
-	•	Users can upload images for blogs or personal use.
-	•	Images are stored on the server and accessed via a unique URL.
-	4.	Database Interaction:
-	•	Uses JDBC for connecting to a MySQL database for storing and retrieving blog and user data.
-	•	Data persistence for blog content and user profile information.
-	5.	AJAX for Asynchronous Communication:
-	•	Implements AJAX to update the page dynamically without requiring a full reload.
+1. **用户认证**：
+   - 通过用户名、密码和验证码进行登录。
+   - 使用 Session 管理实现持久登录。
+   
+2. **博客管理**：
+   - 显示、添加、编辑和删除博客文章。
+   - 每篇博客包括标题、内容和图片。
 
-Project Structure:
+3. **图片上传**：
+   - 用户可以上传图片用于博客或个人使用。
+   - 图片存储在服务器上，并通过唯一的 URL 访问。
 
-Backend (/src/com.pb)
+4. **数据库交互**：
+   - 使用 **JDBC** 连接 MySQL 数据库，存储和获取博客和用户数据。
+   - 数据持久化，保存博客内容和用户资料信息。
 
-	•	Controller: Handles HTTP requests for various features (login, blog, image management, etc.)
-	•	DAO: Data Access Objects for interacting with the database.
-	•	DTO: Data Transfer Objects for transferring data between layers.
-	•	Service: Business logic for managing user and blog data.
+5. **AJAX 异步通信**：
+   - 实现 **AJAX** 技术，允许在不重新加载页面的情况下动态更新页面内容。
 
-Frontend (/web)
+## 项目结构：
 
-	•	HTML, CSS, and JSP files for the user interface and interaction.
-	•	Includes static pages like admin.html, login.jsp, and blog.jsp.
+### 后端 (`/src/com.pb`)
+- **Controller**：处理各种功能的 HTTP 请求（登录、博客、图片管理等）。
+- **DAO**：数据访问对象，用于与数据库交互。
+- **DTO**：数据传输对象，用于在层之间传递数据。
+- **Service**：用于管理用户和博客数据的业务逻辑。
 
-Database:
+### 前端 (`/web`)
+- HTML、CSS 和 JSP 文件，用于用户界面和交互。
+- 包括静态页面，如 `admin.html`、`login.jsp` 和 `blog.jsp`。
 
-	•	MySQL database for storing user and blog information.
-	•	JDBC utilities for database connection management.
+### 数据库：
+- 使用 **MySQL** 数据库存储用户和博客信息。
+- 使用 JDBC 工具类管理数据库连接。
 
-Setup Instructions:
+## 设置说明：
 
-	1.	Clone the Repository:
+1. **克隆仓库：**
+   ```bash
+   git clone https://github.com/yourusername/yourrepo.git
+   ```
 
-git clone https://github.com/jxx4gthb/PersonalBlogSystem.git
+2. **设置数据库：**
+	•将提供的 MySQL 数据库模式导入到本地 MySQL 服务器。
+	•如有需要，修改 JDBCUtil.java 中的数据库连接设置。
+3. **运行应用程序：**
+	•设置 Apache Tomcat 作为服务器。
+	•确保服务器运行在端口 8080（或根据需要修改端口）。
+	•将项目部署到 Tomcat。
+4. **访问 Web 应用：**
+	•打开浏览器，访问 http://localhost:8080。
 
+许可证
 
-	2.	Set Up the Database:
-	•	Import the provided MySQL database schema into your local MySQL server.
-	•	Modify the database connection settings in JDBCUtil.java if needed.
-	3.	Run the Application:
-	•	Set up Apache Tomcat as your server.
-	•	Ensure the server is running on port 8080 (or modify the port if needed).
-	•	Deploy the project to Tomcat.
-	4.	Access the Web Application:
-	•	Open a browser and navigate to http://localhost:8080.
+该项目采用 MIT 许可证，详情请见 LICENSE 文件。
 
-Core Concepts:
-
-	•	JSP: JavaServer Pages for dynamic content generation.
-	•	AJAX: Asynchronous JavaScript for dynamic, real-time user interactions.
-	•	JDBC: Java Database Connectivity for database interaction.
-
-Screenshots:
-
-Login page for user authentication.
-
-Admin panel for blog management.
-
-License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
